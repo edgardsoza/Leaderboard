@@ -8,7 +8,7 @@ html {
 .main-container {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: start;
 }
 
 .leaderboard-title {
