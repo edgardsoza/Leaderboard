@@ -1,6 +1,6 @@
 const table = document.querySelector('.table-scores');
 
-const displayscores = async() => {
+const displayscores = async () => {
   const result = await fetch(
     'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/7YMDhAdb7FXRHals0VRW/scores/',
   );
