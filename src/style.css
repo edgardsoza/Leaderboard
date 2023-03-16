@@ -3,18 +3,22 @@ html {
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
+  background-color: palegoldenrod;
 }
 
 .main-container {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
 }
 
 .leaderboard-title {
-  padding-left: 15rem;
   font-size: 3rem;
+  width: 30%;
   margin-bottom: 7rem;
+  border: 2px dotted red ;
+  text-align: center;
+  color: palevioletred;
 }
 
 .scores-container {
@@ -27,6 +31,9 @@ html {
 .leaderboard-andscores,
 .adding-score {
   width: 20%;
+  border: 2px black double;
+  width: 40%;
+  padding: 1rem;
 }
 
 .title-adding-score,
