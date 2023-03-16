@@ -3,18 +3,22 @@ html {
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
+  background-color: rgb(143, 223, 185);
 }
 
 .main-container {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
 }
 
 .leaderboard-title {
-  padding-left: 15rem;
   font-size: 3rem;
+  width: 30%;
   margin-bottom: 7rem;
+  border: 2px dotted red;
+  text-align: center;
+  color: palevioletred;
 }
 
 .scores-container {
@@ -26,7 +30,9 @@ html {
 
 .leaderboard-andscores,
 .adding-score {
-  width: 20%;
+  border: 2px black double;
+  width: 30%;
+  padding: 1rem;
 }
 
 .title-adding-score,
@@ -43,4 +49,33 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+table {
+  width: 100%;
+  justify-content: center;
+  border: 2px solid green;
+}
+
+tr.tableitemodd {
+  background-color: #2220a371;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: rgb(150, 46, 27);
+}
+
+tr.tableitemven {
+  background-color: #bbb;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: rgb(37, 46, 179);
+}
+
+.refresh,
+.submit {
+  cursor: pointer;
 }

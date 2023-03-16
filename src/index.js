@@ -5,7 +5,9 @@ import './style.css';
 const submitbtn = document.querySelector('.submit');
 const refreshbtn = document.querySelector('.refresh');
 
-displayscores();
+window.addEventListener('load', () => {
+  displayscores();
+});
 
 submitbtn.addEventListener('click', () => {
   addscore();
