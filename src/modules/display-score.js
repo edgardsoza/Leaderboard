@@ -9,10 +9,17 @@ const displayscores = async () => {
   let scoresarray = scoresdata.result;
   scoresarray = scoresarray.sort((a, b) => b.score - a.score);
   table.innerHTML = '';
+  let counter = 1;
   scoresarray.forEach((score) => {
     const tableitem = document.createElement('tr');
     tableitem.innerHTML = `${score.user} : ${score.score}`;
+    if (counter % 2 ===0) {
+      tableitem.classList.add('tableitemven')
+    } else {
+      tableitem.classList.add('tableitemodd');
+    }
     table.appendChild(tableitem);
+    counter += 1;
   });
 };
 
