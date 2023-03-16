@@ -13,8 +13,8 @@ const displayscores = async () => {
   scoresarray.forEach((score) => {
     const tableitem = document.createElement('tr');
     tableitem.innerHTML = `${score.user} : ${score.score}`;
-    if (counter % 2 ===0) {
-      tableitem.classList.add('tableitemven')
+    if (counter % 2 === 0) {
+      tableitem.classList.add('tableitemven');
     } else {
       tableitem.classList.add('tableitemodd');
     }

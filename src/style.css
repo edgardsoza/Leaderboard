@@ -16,7 +16,7 @@ html {
   font-size: 3rem;
   width: 30%;
   margin-bottom: 7rem;
-  border: 2px dotted red ;
+  border: 2px dotted red;
   text-align: center;
   color: palevioletred;
 }
@@ -30,7 +30,6 @@ html {
 
 .leaderboard-andscores,
 .adding-score {
-  width: 20%;
   border: 2px black double;
   width: 30%;
   padding: 1rem;
@@ -64,15 +63,16 @@ tr.tableitemodd {
   text-transform: capitalize;
   font-weight: 900;
   font-size: 1.2rem;
-  color:rgb(150, 46, 27)
+  color: rgb(150, 46, 27);
 }
+
 tr.tableitemven {
   background-color: #bbb;
   letter-spacing: 0.1rem;
   text-transform: capitalize;
   font-weight: 900;
   font-size: 1.2rem;
-  color:rgb(37, 46, 179)
+  color: rgb(37, 46, 179);
 }
 
 .refresh,
